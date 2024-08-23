@@ -1,0 +1,29 @@
+# Arquivos gerados pelo Windows
+Thumbs.db
+Desktop.ini
+
+# Diretório do VS Code
+.vscode/
+
+# Arquivos do ambiente virtual Python
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Arquivos do Pygame
+*.log
+
+# Arquivos do sistema
+.DS_Store
+
+# Arquivo de configuração de ambiente
+.env
+
+# Logs
+*.log
+*.out
+
+# Outros arquivos
+*.bak
+*.tmp
