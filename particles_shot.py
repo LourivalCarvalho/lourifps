@@ -7,17 +7,17 @@ class Particle:
         self.x = x
         self.y = y
         self.vx = random.uniform(-.1, .1)
-        self.vy = random.uniform(-.8, -1.5)
-        self.lifetime = random.uniform(750, 1250)  # em milissegundos
+        self.vy = random.uniform(-.8, -5.5)
+        self.lifetime = random.uniform(750, 1250) 
         self.creation_time = pygame.time.get_ticks()
-        self.opacity = 255  # inicialmente 100% de opacidade
+        self.opacity = 255
 
-        # Carregar sprites
+        # Load sprites
         sprite_folder = os.path.join(os.path.dirname(__file__), 'assets/')
         self.sprites = []
         for filename in ['smoke1.png', 'smoke2.png', 'smoke3.png']:
             width = random.randint(48, 200)
-            height = width  # mantém a proporção da imagem
+            height = width
             sprite = pygame.transform.scale(pygame.image.load(os.path.join(sprite_folder, filename)).convert_alpha(), (width, height))
             self.sprites.append(sprite)
         self.sprite = random.choice(self.sprites)
