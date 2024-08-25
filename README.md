@@ -6,6 +6,17 @@
 - **Pygame 2.x**
 - **Python 3.x**
 
+## Screenshots :camera_flash:
+
+### 1. Main Menu
+![Main Menu](screenshots/lorifps_ss3.jpg)
+
+### 2. In-Game Action
+![In-Game Action](screenshots/lorifps_ss1.jpg)
+
+### 3. Scoring System
+![In-Game Action](screenshots/lorifps_ss2.jpg)
+
 ### 🎮 How to Play
 1. **Clone the repository**
 2. **Install Pygame** using `pip install pygame`
